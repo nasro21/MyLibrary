@@ -6,11 +6,10 @@
     <title>MyLibrary</title>
   </head>
   <body>
-    Before
     <br />
-    <%- body %>
-    <br />
+    <%- include('../partials/header.ejs') %> <%-
+    include('../partials/errorMessage.ejs') %> <%- body %>
 
-    After
+    <br />
   </body>
 </html>
